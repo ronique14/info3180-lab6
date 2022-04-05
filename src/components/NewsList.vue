@@ -1,11 +1,9 @@
 <template>
     <ul class="news__list">
         <li v-for="article in articles"
-            class="news__item">{{ article.title }}</li>
-        <li v-for="article in articles"
-            class="news__item">
+            class="news__item">{{ article.title }},
             {{ article.description }}
-            <img v-bind:src="article.urlToImg">
+            <img class="news__img" v-bind:src="article.urlToImage">
         </li>
     </ul>
     <form @submit.prevent="searchNews" class="d-flex flexcolumn justify-content-center">
@@ -63,3 +61,4 @@ search term here" />
         }
     }
 </script>
+

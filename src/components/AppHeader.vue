@@ -15,14 +15,17 @@
           <span class="navbar-toggler-icon"></span>
         </button>
         <div class="collapse navbar-collapse" id="navbarSupportedContent">
-          <ul class="navbar-nav me-auto">
-            <li class="nav-item">
-              <RouterLink to="/" class="nav-link active">Home</RouterLink>
-            </li>
-            <li class="nav-item">
-              <RouterLink class="nav-link" to="/about">About</RouterLink>
-            </li>
-          </ul>
+            <ul class="navbar-nav me-auto">
+                <li class="nav-item">
+                    <RouterLink to="/" class="nav-link active">Home</RouterLink>
+                </li>
+                <li class="nav-item">
+                    <RouterLink to="/about" class="nav-link">About</RouterLink>
+                </li>
+                <li class="nav-item">
+                    <RouterLink to="/news" class="nav-link">News</RouterLink>
+                </li>
+            </ul>
         </div>
       </div>
     </nav>
